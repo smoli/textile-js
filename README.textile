@@ -23,7 +23,7 @@ bc. console.log( textile( "I am using __textile__." ) );
 
 You can also get to the syntax tree, which uses "JsonML":http://www.jsonml.org/.
 
-bc. var jsonml = textile.parse( text );
+bc. var jsonml = textile.jsonml( text );
 console.log( jsonml );
 
 
